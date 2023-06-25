@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 export default function Hero() {
   return (
     <>
-      <div className="px-6 mt-16 mb-20 flex flex-col gap-4 lg:gap-8 lg:pr-44 lg:my-24">
+      <div className="px-6 mt-24 mb-20 flex flex-col gap-4 lg:gap-8 lg:pr-44 lg:my-28">
         <h2 className="text-[2rem] font-[700] leading-10 lg:text-5xl ">
           Hey, I&apos;m Yash &mdash; <br></br> I design with code to fuel pixels
           with creativity.
