@@ -7,15 +7,17 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
+      <div className="mx-auto max-w-5xl">
+        <Header />
 
-      <Hero />
+        <Hero />
 
-      <Projects />
+        <Projects />
 
-      <Stack />
+        <Stack />
 
-      <Footer />
+        <Footer />
+      </div>
     </>
   );
 }

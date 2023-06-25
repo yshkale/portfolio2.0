@@ -9,7 +9,7 @@ export default function Stack() {
   return (
     <>
       <main className="px-6 mb-20">
-        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem] mb-8">
+        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem] mb-8 lg:text-xl">
           My Tech Stack
         </h3>
 

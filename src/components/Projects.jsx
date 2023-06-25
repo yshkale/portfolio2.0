@@ -7,12 +7,12 @@ export default function Projects() {
   return (
     <>
       <div className="px-6 flex flex-col gap-12 mb-20">
-        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem]">
+        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem] lg:text-xl">
           Some things I&apos;ve built
         </h3>
 
-        <main className="px-2 flex flex-col gap-14">
-          <div className="flex flex-col gap-2">
+        <main className="px-2 flex flex-col gap-14 lg:flex-row">
+          <div className="flex flex-col gap-2 lg:w-1/3">
             <div className="bg-neutral-900 rounded-lg flex items-center justify-center mb-2 h-56">
               <img
                 className="rounded-md w-5/6 h-40"
@@ -49,7 +49,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 lg:w-1/3">
             <div className="bg-neutral-900 rounded-lg flex items-center justify-center mb-2 h-56">
               <img
                 className="rounded-md w-5/6 h-40"
@@ -86,7 +86,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 lg:w-1/3">
             <div className="bg-neutral-900 rounded-lg flex items-center justify-center mb-2 h-56">
               <img
                 className="rounded-md w-5/6 h-40"

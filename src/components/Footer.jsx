@@ -6,13 +6,13 @@ export default function Footer() {
   return (
     <>
       <section
-        className="border-y border-neutral-800 bg-neutral-900 px-6 py-8 flex flex-col gap-4"
+        className="border-y border-neutral-800 bg-neutral-900 px-6 pt-8 pb-6 flex flex-col gap-4 lg:rounded-lg lg:mb-8"
         id="footer"
       >
-        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem]">
+        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem] lg:text-xl">
           Get in Touch
         </h3>
-        <p className="text-neutral-400">
+        <p className="text-neutral-400 lg:pr-60">
           Let&apos;s team up and create awesome websites that look stunning and
           are super user-friendly. If you have any cool projects or job
           opportunities, hit me up! I&apos;m all ears and excited to connect
@@ -25,17 +25,29 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={twitter} alt="email icon" className="w-8" />
+            <img
+              src={twitter}
+              alt="email icon"
+              className="w-8 lg:w-10 hover:brightness-200 transition-all duration-300"
+            />
           </a>{" "}
           <a
             href="https://www.linkedin.com/in/yshkale"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={linkedin} alt="email icon" className="w-8" />
+            <img
+              src={linkedin}
+              alt="email icon"
+              className="w-8 lg:w-10 hover:brightness-200 transition-all duration-300"
+            />
           </a>{" "}
           <a href="mailto:yashnkale@gmail.com" target="_blank" rel="noreferrer">
-            <img src={email} alt="email icon" className="w-8" />
+            <img
+              src={email}
+              alt="email icon"
+              className="w-8 lg:w-10 hover:brightness-200 transition-all duration-300"
+            />
           </a>{" "}
         </div>
 
