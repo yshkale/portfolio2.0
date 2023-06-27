@@ -15,7 +15,7 @@ export default function Projects() {
           <div className="flex flex-col gap-2 lg:w-1/3">
             <div className="bg-neutral-900 rounded-lg flex items-center justify-center mb-2 h-56">
               <img
-                className="rounded-md w-5/6 h-40"
+                className="rounded-md w-3/4 h-40"
                 src={Dior}
                 alt="dior project screenshot"
               />
@@ -52,7 +52,7 @@ export default function Projects() {
           <div className="flex flex-col gap-2 lg:w-1/3">
             <div className="bg-neutral-900 rounded-lg flex items-center justify-center mb-2 h-56">
               <img
-                className="rounded-md w-5/6 h-40"
+                className="rounded-md w-3/4 h-40"
                 src={SkyCast}
                 alt="skycast project screenshot"
               />
@@ -89,7 +89,7 @@ export default function Projects() {
           <div className="flex flex-col gap-2 lg:w-1/3">
             <div className="bg-neutral-900 rounded-lg flex items-center justify-center mb-2 h-56">
               <img
-                className="rounded-md w-5/6 h-40"
+                className="rounded-md w-3/4 h-40"
                 src={Cineflix}
                 alt="cineflix project screenshot"
               />
